@@ -15,7 +15,7 @@ export default function AboutPage() {
           <p className={subtitle({ class: "mt-2	" })}>Our Candidate</p>
         </div>
       </div>
-	  <br></br>
+	  <div className="ff"></div>
  	  <div>
 	   <p className="df">Backstory</p>
 	  </div>

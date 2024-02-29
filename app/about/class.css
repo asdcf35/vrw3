@@ -3,6 +3,9 @@
     justify-content: center;
     align-content: center;
 }
+.ff{
+    height:25vh;
+}
 .flx-col{
     margin-left: 1rem;
     display: flex;

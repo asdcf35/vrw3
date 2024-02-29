@@ -22,7 +22,7 @@ export const siteConfig = {
     },
     {
       label: "Advertisements",
-      href: "/Advertisements",
+      href: "/advertisements",
     },
   ],
   navMenuItems: [
