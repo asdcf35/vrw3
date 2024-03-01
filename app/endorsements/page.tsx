@@ -34,10 +34,6 @@ export default function App() {
             </div>
           </CardHeader>
           <Divider />
-          <CardBody>
-            <p>Make beautiful websites regardless of your design experience.</p>
-          </CardBody>
-          <Divider />
           <CardFooter></CardFooter>
         </Card>
 
