@@ -43,18 +43,18 @@ export default function App() {
     </Card>
     <Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-5">
       <CardHeader className="absolute z-10 top-1 flex-col items-start">
-        <p className="text-tiny text-white/60 uppercase font-bold">New</p>
-        <h4 className="text-black font-medium text-2xl">Acme camera</h4>
+        <p className="text-tiny text-white/60 uppercase font-bold">Plank #4</p>
+        <h4 className="text-black font-medium text-2xl">Immigration</h4>
       </CardHeader>
       <Image
         removeWrapper
         alt="Card example background"
         className="z-0 w-full h-full scale-125 -translate-y-6 object-cover"
-        src="/images/card-example-6.jpeg"
+        src="https://www.americanprogress.org/wp-content/uploads/sites/2/2021/10/ImmigrationPolicyPage.jpg"
       />
       <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
         <div>
-          <p className="text-black text-tiny">Plank #4</p>
+          <p className="text-black text-tiny">Balancing Act</p>
           <p className="text-black text-tiny">A novel way to solve immigration.</p>
         </div>
       </CardFooter>
