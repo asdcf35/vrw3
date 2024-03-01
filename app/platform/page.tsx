@@ -54,8 +54,7 @@ export default function App() {
       />
       <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
         <div>
-          <p className="text-black text-tiny">Balancing Act</p>
-          <p className="text-black text-tiny">A novel way to solve immigration.</p>
+          <p className="text-black text-tiny">A novel way to solve immigration, one that doesn't compromise on security while not being harsh.</p>
         </div>
       </CardFooter>
     </Card>
