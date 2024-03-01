@@ -66,16 +66,15 @@ export default function App() {
                 </ModalHeader>
                 <ModalBody>
                   <p>
-                    We want everyone's wages to be able to support them
-                    financially, but we will not use "unemployment checks"
-                    anymore
+                    We want wages to be able to support everyone financially,
+                    but we will not use unemployment checks anymore
                   </p>
                   <p>
-                    'Unemployment checks' are not very conducive for a thriving
+                    Unemployment checks are not very conducive for a thriving
                     economy.
                   </p>
                   <p>
-                    Since we will not have 'unemployment checks', we will have a
+                    Since we will not have unemployment checks, we will have a
                     graduated minimum wage system. This will make our country's
                     economy better. If the minimum wage is too low our country
                     will be economically low and the homeless rate will
