@@ -1,7 +1,7 @@
 'use client'
 import React from "react";
 import {Card, CardHeader, CardBody, CardFooter, Image, Button} from "@nextui-org/react";
-
+import './class.css'
 export default function App() {
   return (
     <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8">
@@ -60,28 +60,21 @@ export default function App() {
     </Card>
     <Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-7">
       <CardHeader className="absolute z-10 top-1 flex-col items-start">
-        <p className="text-tiny text-white/60 uppercase font-bold">Your day your way</p>
-        <h4 className="text-white/90 font-medium text-xl">Your checklist for better sleep</h4>
+        <p className="text-tiny text-white/60 uppercase font-bold">National Security</p>
+        <h4 className="text-white/90 font-medium text-xl">The US checklist for better security</h4>
       </CardHeader>
       <Image
         removeWrapper
         alt="Relaxing app background"
         className="z-0 w-full h-full object-cover"
-        src="/images/card-example-5.jpeg"
+        src="https://api.army.mil/e2/c/images/2023/11/03/b4b385f7/size1.jpg"
       />
       <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
         <div className="flex flex-grow gap-2 items-center">
-          <Image
-            alt="Breathing app icon"
-            className="rounded-full w-10 h-11 bg-black"
-            src="/images/breathing-app-icon.jpeg"
-          />
-          <div className="flex flex-col">
-            <p className="text-tiny text-white/60">Breathing App</p>
-            <p className="text-tiny text-white/60">Get a good night's sleep.</p>
+          <div className="flex flex-col marigold">
+            <p className="text-tiny text-white/60">What we think the government should do first for national security.</p>
           </div>
         </div>
-        <Button radius="full" size="sm">Get App</Button>
       </CardFooter>
     </Card>
   </div>
