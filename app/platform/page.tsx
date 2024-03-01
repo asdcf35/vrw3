@@ -13,7 +13,7 @@ export default function App() {
         removeWrapper
         alt="Card background"
         className="z-0 w-full h-full object-cover"
-        src="/images/card-example-4.jpeg"
+        src="https://cdn.shopify.com/s/files/1/2643/9914/files/5maYumusplHiebPzshiFlmeoc8vlo5qX1632332951.jpg?v=1632951145"
       />
     </Card>
     <Card className="col-span-12 sm:col-span-4 h-[300px]">
