@@ -38,7 +38,7 @@ export default function App() {
         removeWrapper
         alt="Card background"
         className="z-0 w-full h-full object-cover"
-        src="/images/card-example-2.jpeg"
+        src="https://www.silencercentral.com/wp-content/uploads/2021/05/pexels-karolina-grabowska-5202438-scaled.jpg"
       />
     </Card>
     <Card isFooterBlurred className="w-full h-[300px] col-span-12 sm:col-span-5">
@@ -54,7 +54,7 @@ export default function App() {
       />
       <CardFooter className="absolute bg-white/30 bottom-0 border-t-1 border-zinc-100/50 z-10 justify-between">
         <div>
-          <p className="text-black text-tiny">Available soon.</p>
+          <p className="text-black text-tiny">Plank #4</p>
           <p className="text-black text-tiny">Get notified.</p>
         </div>
         <Button className="text-tiny" color="primary" radius="full" size="sm">
