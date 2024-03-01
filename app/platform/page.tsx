@@ -4,7 +4,7 @@ import {Card, CardHeader, CardBody, CardFooter, Image, Button} from "@nextui-org
 export default function App() {
   return (
     <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8">
-    <Card className="col-span-12 sm:col-span-4 h-[300px]">
+    <Card className="col-span-12 sm:col-span-4 h-[300px]" isPressable onPress={() => console.log("item pressed")}>
       <CardHeader className="absolute z-10 top-1 flex-col !items-start">
         <p className="text-tiny text-white/60 uppercase font-bold">Platform #1</p>
         <h4 className="text-white font-medium text-large">Increasing Wages - Step by Step</h4>
