@@ -31,8 +31,8 @@ export default function App() {
     </Card>
     <Card className="col-span-12 sm:col-span-4 h-[300px]">
       <CardHeader className="absolute z-10 top-1 flex-col !items-start">
-        <p className="text-tiny text-white/60 uppercase font-bold">Supercharged</p>
-        <h4 className="text-white font-medium text-large">Creates beauty like a beast</h4>
+        <p className="text-tiny text-white/60 uppercase font-bold">Plank #3</p>
+        <h4 className="text-white font-medium text-large">Gun Control</h4>
       </CardHeader>
       <Image
         removeWrapper
