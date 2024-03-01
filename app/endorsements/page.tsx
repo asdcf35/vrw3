@@ -8,12 +8,21 @@ import {
   Link,
   Image,
 } from "@nextui-org/react";
+import { title, subtitle } from "@/components/primitives";
 
 export default function App() {
   return (
     <>
-      <div className="gap-30 grid grid-cols-3 w-[80%]">
-        <Card className="w-[300px]">
+      <h1 className={title()}>Who Supports Us</h1>
+      <p
+        style={{ textAlign: "center" }}
+        className={subtitle({ class: "mt-2	" })}
+      >
+        Our Endorsements
+      </p>
+
+      <div className="grid grid-cols-3 w-[80%]">
+        <Card className="w-[320px]">
           <CardHeader className="flex gap-3">
             <div className="flex flex-col">
               <p className="text-md">NextUI</p>
@@ -27,7 +36,7 @@ export default function App() {
           <CardFooter></CardFooter>
         </Card>
 
-        <Card className="w-[300px]">
+        <Card className="w-[320px]">
           <CardHeader className="flex gap-3">
             <div className="flex flex-col">
               <p className="text-md">NextUI</p>
@@ -37,7 +46,7 @@ export default function App() {
           <CardFooter></CardFooter>
         </Card>
 
-        <Card className="w-[300px]">
+        <Card className="w-[320px]">
           <CardHeader className="flex gap-3">
             <div className="flex flex-col">
               <p className="text-md">NextUI</p>
@@ -52,7 +61,7 @@ export default function App() {
         </Card>
       </div>
       <div className="grid grid-cols-2 w-[80%]">
-        <Card className="w-[475px]">
+        <Card className="w-[480px]">
           <CardHeader className="flex gap-3">
             <div className="flex flex-col">
               <p className="text-md">NextUI</p>

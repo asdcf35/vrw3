@@ -17,6 +17,7 @@ import {
   ModalFooter,
   useDisclosure,
 } from "@nextui-org/react";
+import { title, subtitle } from "@/components/primitives";
 
 export default function App() {
   const modalI = useDisclosure();
@@ -26,6 +27,10 @@ export default function App() {
   const modalG = useDisclosure();
 
   return (
+    <>
+    <h1 className={title()}>Where we stand</h1>
+    <br></br>
+    <p style={{textAlign: "center"}} className={subtitle({ class: "mt-2	" })}>Our Party Platform</p>
     <div className="max-w-[900px] gap-2 grid grid-cols-12 grid-rows-2 px-8">
       <Card
         className="col-span-12 sm:col-span-4 h-[300px]"
@@ -339,5 +344,6 @@ export default function App() {
         </ModalContent>
       </Modal>
     </div>
+    </>
   );
 }
