@@ -6,7 +6,7 @@ export default function AboutPage() {
   return (
     <>
       <div className="flx">
-        <Image
+        <img
           src="https://daisyui.com/images/stock/photo-1635805737707-575885ab0820.jpg"
           className="rounded-lg shadow-2xl"
         />
